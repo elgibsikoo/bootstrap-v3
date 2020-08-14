@@ -1,0 +1,18 @@
+
+body {
+    padding-top: 70px;
+}
+
+.jumbotron {
+    color: #2c3e50;
+    background: #ecf0f1;
+}
+
+.navbar-inverse {
+    color: #2c3e50;
+}
+
+/* using a or navbar-brand {color: white} won't work due to specificity. how do I know? inspect element*/
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+    color: white;
+}
